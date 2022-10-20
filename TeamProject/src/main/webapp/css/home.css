@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+body{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+h1{
+    font-weight:100;
+    margin:20%;
+    padding:0;
+    font-size: 5em;
+    color:  goldenrod;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    /* 파폭 */
+    -moz-animation: bounce 0.5s infinite linear;
+    /* 크롬 */
+    -webkit-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+}
+h3{
+    text-align: center;
+    margin: -20%;
+    font-weight: 50;
+    font-size: 200%;
+}

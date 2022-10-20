@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+
+.member_intro li{
+	font-size: 25px;
+	font-family: "s-core-dream-bold", sans-serif !important;
+	flex-direction: row;
+	display: inline;
+}
+
+* {
+	font-family: 'Black Han Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 100;
+}
+header{
+    height: 150px;
+    background-color: none;
+    border: none;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+nav { width: 80%; position: absolute; top: 50px; right: 30px; }
+.menu{float: right;}
+.menu li{float: left;
+}
+.menu a{
+        color: white;
+        padding: 0px 15px;
+        display: block;
+        font-size: 35px;
+}
+h1{
+    font: inherit;
+    color: white;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+
+    /* Sections backgrounds
+* --------------------------------------- */
+.section{
+    text-align:center;
+    font-weight: 100;
+}
+
+#section0{
+	background: linear-gradient(#f2b2b2, #c8ccf2);
+    font-size: 10em;
+    
+    
+}
+
+#section1{
+	background: linear-gradient(#c8ccf2, #b2b3d5);
+    font-size: 7em;
+    
+}
+
+
+#section2{
+	background: linear-gradient(#b2b3d5, #c3b1e0);
+    font-size: 5em;
+    
+}
+.logo{
+	cursor:pointer;
+}

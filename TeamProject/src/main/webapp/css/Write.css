@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+
+
+body{
+   background: linear-gradient(#b3b4d6, #c3b1e0);
+   background-size: cover;
+   height: 98.4vh;
+}
+
+header{
+	height: 129px;
+	border: none;
+	width:100%;
+	top: 0;
+    left: 0;
+	position: fixed;
+}
+
+#Title{
+   font-family: "s-core-dream-bold", sans-serif !important;
+   width: 515px;
+   height: 40px;
+   font-size: 15px;
+   border-radius:10px;
+   margin-bottom: 10px;
+   background: none;
+   color: white;
+   margin-top: 10px;
+}
+
+#Contents{
+	font-family: "s-core-dream-bold", sans-serif !important;
+	width: 500px;
+	height : 400px;
+	padding: 10px;
+	margin-bottom:10px;
+	border-radius:10px;
+	background: none;
+	color: white;
+	
+}
+
+.InputBox{
+	padding: 1% 20%; 
+	margin-top: 15%;
+	flex: 0 1 auto;
+}
+
+
+
+.Btn{
+	margin: 5px;
+	cursor:pointer;
+	
+	
+}
+.write_form{
+	display: flex;
+    justify-content: center;
+    font-family: "s-core-dream-bold", sans-serif !important;
+}
+.table_rule{
+	    width: 550px;
+}
+#btnrule{
+/* 		width: 85px; */
+    height: 50px;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 24px;
+    font-weight: 100;
+    margin-top: 10px;
+    font-family: 's-core-dream-medium', sans-serif;
+    background-color:ivory;
+    border: 2px solid grey;
+    color: #404040;
+}
+#wtform{
+	margin-top: 100px;
+}

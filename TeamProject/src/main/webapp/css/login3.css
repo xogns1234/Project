@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("S-Core-Dream-light/s-core-dream.css");
+html{
+   background: linear-gradient(#f2b2b2, #c8ccf2);
+   background-size: cover;
+   height: 100vh;
+}
+
+.menu a,h1{
+   font-family: 'Black Han Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    height: 129px;
+    background-color: none;
+    border: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 100;
+}
+.menu a{
+   color: #404040;
+   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
+
+   padding: 0px 15px;
+   display: block;
+   font-size: 35px;
+   
+}
+h1{
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+   font-family: 'Black Han Sans', sans-serif;
+   color: #595959;
+    margin-top:18%;
+    font-size: 4em;
+    font-weight: 100;
+}
+h3,h2{
+   margin-bottom : 5px;
+   font-size: 2em;
+   color: #404040;
+   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
+
+   font-family: "s-core-dream-bold", sans-serif !important;
+}
+
+
+#idlog{
+   width: 200px;
+   height : 20px;
+   padding: 10px;
+   margin-bottom:10px;
+   border-radius:5px;
+   font-family: "s-core-dream-medium", sans-serif !important;
+   color:#404040;
+   background-color:ivory;
+   
+}
+
+logo{
+   float:left;
+   cursor:pointer;
+}
+nav{
+   float:right;
+}
+nav li{
+   float:right
+}
+
+#loginbtn{
+   text-align: right;
+   
+}
+#logtext{
+   font-size:25px;
+/*    color:white; */
+   font-family: "s-core-dream-bold", sans-serif !important;
+   color: #404040;
+   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
+}
+
+#idfind, #pwfind{
+   font-family: "s-core-dream-bold", sans-serif !important;
+   border: none;
+   background-color:ivory;
+   height : 50px;
+   font-size: 18px;
+   border-radius: 30px;
+   padding:10px;
+   font-weight:100;
+}
+
+#log{
+   padding:10px;
+   border-radius: 30px;
+   height : 50px;
+   width: 86px;
+   font-size: 18px;
+   font-weight:100;
+/*    display: block; */
+   font-family: "s-core-dream-bold", sans-serif !important;
+   border: none;
+   background-color:ivory;
+}
+
+button{
+   margin: 5px;
+   cursor:pointer;
+}

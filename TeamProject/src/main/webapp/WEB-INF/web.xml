@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<!-- Map function -->
+<servlet>
+	<servlet-name>Map</servlet-name>
+    <servlet-class>controller.Map</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Map</servlet-name>    
+    <url-pattern>/Map.map</url-pattern>
+</servlet-mapping>
+
+<!-- Member controller -->
+<servlet>
+	<servlet-name>loginform</servlet-name>
+	<servlet-class>controller.loginform</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>loginform</servlet-name>
+	<url-pattern>/Member/loginform.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>addMemberform</servlet-name>
+	<servlet-class>controller.addMemberform</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>addMemberform</servlet-name>
+	<url-pattern>/Member/addMemberform.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>updateMemberform</servlet-name>
+	<servlet-class>controller.updateMemberform</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>updateMemberform</servlet-name>
+	<url-pattern>/Member/updateMemberform.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>deleteMemberform</servlet-name>
+	<servlet-class>controller.deleteMemberform</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>deleteMemberform</servlet-name>
+	<url-pattern>/Member/deleteMemberform.do</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ListModel</servlet-name>
+	<servlet-class>controller.ListModel</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ListModel</servlet-name>
+	<url-pattern>/Board/ListModel.li</url-pattern>
+</servlet-mapping>
+<!-- Member controller -->
+
+<!-- https security -->
+<security-constraint>
+	<web-resource-collection>
+		<web-resource-name>SSL Forward</web-resource-name>
+		<url-pattern>/*</url-pattern>
+	</web-resource-collection> 
+	<user-data-constraint>
+		<transport-guarantee>CONFIDENTIAL</transport-guarantee> 
+	</user-data-constraint>
+</security-constraint>
+
+<security-constraint>
+	<web-resource-collection>
+		<web-resource-name>HTTPS or HTTP</web-resource-name>
+		<url-pattern>/images/*</url-pattern>
+		<url-pattern>/css/*</url-pattern>
+	</web-resource-collection>
+	<user-data-constraint>
+		<transport-guarantee>NONE</transport-guarantee>
+	</user-data-constraint>
+</security-constraint>
+
+
+</web-app>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("S-Core-Dream-light/s-core-dream.css");
+
+.nav-link {
+	font-family: 'Black Han Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+li{
+	list-style:none;
+}
+
+ul{
+	list-style:none;
+}
+
+.menu{
+	float: right;
+	font-family: 'Black Han Sans', sans-serif;
+
+}
+
+.menu li{
+	float: left;
+}
+.menu ul li{
+	top: -5%;
+}
+
+#nav-id{
+	color: black;
+    padding: 0px 15px;
+    display: block;
+    font-size: 35px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+.menu a{
+        color: black;
+        padding: 0px 15px;
+        display: block;
+        font-size: 35px;
+        clear:both;
+}
+nav{
+    height: 150px;
+    background-color: none;
+    border: none;
+    position: fixed;
+    left: 0;
+    width: 100%; 
+
+
+}
+.board-content{
+	
+}
+#menu-nav{
+	top: 50px;
+}
